@@ -9,7 +9,7 @@
   @vite('resources/css/app.css')
 </head>
 
-<body>
+<body class="h-screen flex flex-col">
   {{-- navbar --}}
   @include('layouts.navbar')
   {{-- akhir navbar --}}
@@ -18,9 +18,9 @@
   @yield('contect')
   {{-- akhir content --}}
 
-  {{-- footer --}}
+  {{-- Footer --}}
   @include('layouts.footer')
-  {{-- akhir footer --}}
+  {{-- Footer End --}}
 </body>
 
 </html>
