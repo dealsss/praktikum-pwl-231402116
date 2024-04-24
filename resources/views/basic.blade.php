@@ -47,7 +47,7 @@
         @csrf
         @method('delete')
           <div class="tooltip" data-tip="Selesai">
-            <button class="btn btn-sm btn-success bg-[#D7FAEA] border-[#D7FAEA]">Done</button>
+            <button class="btn btn-sm btn-success bg-[#D7FAEA] border-[#D7FAEA]">Delete</button>
           </div>
         </form>
       </div>
